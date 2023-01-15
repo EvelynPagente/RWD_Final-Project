@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-header h1 {
+    color:  rgb(75, 65, 46);
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.navbar-header h1:hover {
+    color: rgb(64, 145, 177);
+}
+
+.header {
+    font-size: 16px;
+}
+
+.navbar-style {
+    box-shadow: 0 5px 10px #efefef;
+}
+
+.nav a {
+    color:  rgb(70, 59, 40);
+}
+
+ul {
+    padding: 10px;
+}
+
+button{
+    transition: .4s;
+}
+
+button:hover{
+    border: 2px solid #191919;
+}
+
+.icon-bar {
+    background: black;
+    
+}
+
+h1 span {
+    color: red;
+}
+
+#star {
+    font-family: cursive;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+   
+} 
+
+#star span {
+    font-family: Arial, Helvetica, sans-serif;;
+    color: #d37314;
+}
+
+#star p {
+    font-size: 18px;
+    color: black;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+.column {
+    border: 2px dashed;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+
+  .column :hover {
+    opacity: 0.8;
+  }
+
+#clasmt header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#clasmt {
+    background-color: #191919;
+}
+
+#clasmt span {
+    color: rgb(107, 145, 33);
+}
+
+#clasmt header p {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 18px;
+    width: 70%;  
+}
+
+#clasmt header h1 {
+    font-size: 30px;
+}
+
+#clasmt .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row ;
+    width: 100%;
+}
+
+#clasmt .row > img {
+    flex-shrink: 1;
+    flex-basis: 25%;
+}
+
+#clasmt img {
+    border: 5px double;
+    width: 105%;
+    object-fit: fill;
+}
+
+#clasmt img:hover {
+    opacity: 0.8;
+} 
+
+
+.info-1 {
+    background-color:  rgb(243, 224, 189);
+}
+
+#frnd {
+    font-family: cursive;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+   
+} 
+
+#frnd span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #386087;
+}
+
+#frnd p {
+    color: black;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+  
+.photo {
+    border: 8px groove;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.photo :hover {
+    opacity: 0.8;
+}
+
+#act-fam {
+    background-color: whitesmoke;
+    padding-bottom: 5px;
+}
+
+.text-center {
+    color: #b15d0a;
+}
+
+.act2 p{
+    font-family: cursive;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 5%;
+    font-size: 18px;
+    text-align: justify;
+    color: #191919;
+}
+
+#main-footer {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    background-color:  rgb(122, 119, 119);
+    color: beige;
+}
+
+#main-footer:hover {
+    color: black;
+} 
+
+
+@media (max-width: 1280px){
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
